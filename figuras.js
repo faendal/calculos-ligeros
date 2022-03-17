@@ -51,3 +51,6 @@ console.log(`El perímetro del círculo es de ${perimetroCirculo} cm`);
 
 const areaCirculo = pi * radioCirculo**2;
 console.log(`El área del círculo es de ${areaCirculo} cm²`)
+
+console.groupEnd();
+
