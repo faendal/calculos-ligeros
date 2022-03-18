@@ -7,7 +7,37 @@
     <title>Figuras geométricas | Curso práctico Javascript Platzi</title>
 </head>
 <body>
-    <h1>Figuras geométricas</h1>
-    <script src="./figuras.js"></script>
+    <header>
+        <h1>Figuras geométricas</h1>
+    </header>
+    <main>
+        <script src="./figuras.js"></script>
+        <section>
+            <h2>Calcula el área y el perímetro de un cuadrado</h2>
+            <form action="">
+                <label for="inputCuadrado">Ingrese la medida del lado del cuadrado</label>
+                <input id="inputCuadrado" type="number">
+                <button type="button" onclick="calcularPerimetroCuadrado()">Calcular el perímetro</button>
+                <button type="button" onclick="calcularAreaCuadrado()">Calcular el área</button>       
+            </form>
+            <form action="">
+                <h2>Calcula el área y el perímetro de un triángulo isósceles o equilátero</h2>
+                <p>El lado distinto, en caso de existir será tomado como base</p>
+                <label for="inputBase">Ingrese la medida de la base</label>
+                <input id="inputBase" type="number">
+                <label for="inputLados">Ingrese la medida de los dos lados estrictamente iguales</label>
+                <input id="inputLados" type="number">
+                <button type="button" onclick="calcularPerimetroTriangulo()">Calcular el perímetro</button>
+                <button type="button" onclick="calcularAreaTriangulo()">Calcular el área</button>       
+            </form>
+            <form action="">
+                <h2>Calcula el área y el perímetro de una circunferencia</h2>
+                <label for="inputCirculo">Ingrese el radio de la circunferencia</label>
+                <input id="inputCirculo" type="number">
+                <button type="button" onclick="calcularPerimetroCirculo()">Calcular el perímetro</button>
+                <button type="button" onclick="calcularAreaCirculo()">Calcular el área</button>       
+            </form>
+        </section>
+    </main>
 </body>
 </html>
