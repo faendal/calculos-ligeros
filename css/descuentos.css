@@ -1,0 +1,118 @@
+/* General */
+
+*
+{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html
+{
+    font-size: 62.5%;
+    font-family: 'Times New Roman', Times, serif;
+}
+ 
+body
+{
+    font-size: 1.6rem;
+}
+
+button, select
+{
+    cursor: pointer;
+}
+
+/* Header */
+
+header
+{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    background-color: #e4e4e4;
+    width: 100%;
+    height: 100px;
+}
+
+header h1
+{
+    font-size: 5rem;
+}
+
+/* Main */
+
+main
+{
+    width: 100%;
+    height: 780px;
+    font-size: 2rem;
+}
+
+main h2
+{
+    font-size: 3rem;
+    padding: 20px 0;
+    text-align: center;
+}
+
+main .container
+{
+    display: grid;
+    grid-template-columns: 1fr;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+    margin: 0 auto;
+    background-color: #e4e4e4;
+    border: solid 2px #20212447;
+    border-radius: 5px;
+}
+
+main .container label
+{
+    margin: 10px;
+    padding: 10px;
+}
+
+main .container input
+{
+    margin: 10px;
+    padding: 10px;
+    font-size: 2rem;
+    background-color: #eeeded;
+    outline: none;
+}
+
+main .container input:hover
+{
+    box-shadow: 0 1px 5px 0 #19191a47;
+}
+
+main .container select
+{
+    margin: 10px;
+    padding: 10px;
+    font-size: 2rem;
+}
+
+main .container button
+{
+    margin: 10px;
+    padding: 10px;
+    font-size: 2rem;
+    text-align: left;
+}
+
+main .container button:hover, main .container select:hover
+{
+    border: solid 1px #222;
+    box-shadow: 0 1px 1px #000001;
+}
+
+main .container p
+{
+    margin: 10px;
+    padding: 10px;
+}

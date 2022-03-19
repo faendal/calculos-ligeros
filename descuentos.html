@@ -13,7 +13,22 @@
     </header>
     <main>
         <script src="./descuentos.js"></script>
-        
+        <section>
+            <h2>El siguiente formulario lo ayudará a calcular el precio a pagar de los productos seleccionados</h2>
+            <form class="container">
+                <label for="inputPrecio">Escriba el precio del producto</label>
+                <input type="number" id="inputPrecio">
+                <label for="inputCupon">Seleccione el cupón de descuento que posee</label>
+                <select  id="inputCupon">
+                    <option value="Default" selected>No tengo</option>
+                    <option value="Pequeño">Pequeño</option>
+                    <option value="Mediano">Mediano</option>
+                    <option value="Grande">Grande</option>
+                </select>
+                <button type="button" onclick="onClickButtonPriceDiscount()">Calcular precio</button>
+                <p id="precioFinal"></p>
+            </form>
+        </section>
     </main>
 </body>
 </html>
