@@ -48,7 +48,7 @@ function calcularMediana(arreglo)
     return mediana;
 }
 
-function moda(arreglo)
+function calcularModa(arreglo)
 {
     const arregloContado = {};
     arreglo.map
