@@ -23,7 +23,6 @@ agregar(colombia, "Alicia", 1300);
 agregar(colombia, "Ana", 2400);
 agregar(colombia, "Julia", 3400);
 agregar(colombia, "Rosa", 400);
-agregar(colombia, "Angélica", 400);
 agregar(colombia, "Tatiana", 400);
 agregar(colombia, "Lorena", 1000);
 agregar(colombia, "Carolina", 1600);
